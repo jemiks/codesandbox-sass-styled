@@ -1,0 +1,24 @@
+$danger-color: #dc3545;
+$primary-color: #007bff;
+$warning-color: #ffc107;
+
+.btn {
+  color: #ffffff;
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnDanger{
+  background-color: $danger-color;
+}
+.btnPrimary{
+  background-color: $primary-color;
+}
+.btnWarning{
+  background-color: $warning-color;
+}
