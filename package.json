@@ -5,6 +5,7 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "@testing-library/react": "11.2.5",
     "node-sass": "5.0.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",

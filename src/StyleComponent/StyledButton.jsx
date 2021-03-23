@@ -1,14 +1,9 @@
 import React from "react";
 import { StyledButtonContainer } from "./StyledButtonStyles";
 
-const StyledButton = ({ danger, primary, warning, type }) => {
+const StyledButton = ({ type }) => {
   return (
-    <StyledButtonContainer
-      btnColors={type}
-      danger={danger}
-      primary={primary}
-      warning={warning}
-    >
+    <StyledButtonContainer btnColors={type}>
       styled comp button
     </StyledButtonContainer>
   );
